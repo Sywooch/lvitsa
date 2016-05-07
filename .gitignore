@@ -1,0 +1,14 @@
+*.zip
+*.log
+*.pdf
+*.xls
+*.jpg
+*.png
+*.jpeg
+*.bmp
+*.gif
+/tests/*
+/environments/*
+/console/*
+/vendor/yiisoft/*
+u12263_lvitsa.sql
