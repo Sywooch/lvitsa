@@ -80,39 +80,8 @@ class CategoryController extends \yii\web\Controller
             'quantity' => Yii::$app->cart->getCount(),
             'cost' => Yii::$app->cart->getCost()
         ];
+            //$result = 'no';
 
-        //Yii::$app->cart->removeById($id);
-        //$sizes=array();
-        //$sizes=$_POST['sizes'];
-        //$foo=array();
-        //for ($i=0;$i<count($sizes);$i++) {
-       //     $foo[]=$sizes[$i];
-       /* }
-        $model = Products::findOne($id);
-        $model->setSize($id,$foo);
-        \Yii::$app->cart->put($model,count($foo));*/
-
-       // Yii::$app->session->set('ff','ffff');
-        //$id=$_POST['product_id'];
-
-       // $productOrder = Yii::$app->cart->getPositionById($id);
-
-        //if (empty($productOrder)) {
-            //$result = $sizes;
-            $result = 'no';
-        //}
-       // elseif (!empty($productOrder)) {
-            /* $foo = array(1, 2, 3, 4, 5, 6);
-             $bar = array(7,8,9,10);
-             $result = array_merge($foo, $bar);*/
-          //  $result = 'ok';
-       // }
-
-
-
-        //$model = Products::findOne($id);
-        //$model->size = $result;
-       // \Yii::$app->cart->put($model,1);
     }
     
     public function actionTest ()
